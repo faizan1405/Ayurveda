@@ -41,7 +41,7 @@ export function Header() {
     >
       <div className="mx-auto flex h-20 max-w-[1440px] items-center justify-between px-6 md:px-12">
         <Link to="/" className="flex items-center gap-3 text-primary" aria-label="Ananta home">
-          <LotusMark className="h-6 w-8" />
+          <img src="/favicon.png" alt="Ananta logo" className="h-8 w-8 rounded-full object-cover shrink-0" />
           <span className="font-display text-2xl tracking-[0.2em]">ANANTA</span>
         </Link>
 
